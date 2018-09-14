@@ -1,10 +1,17 @@
 # code book describing the variables in run_analysis
 
+# variables used in input and analysis:
+x_train, y_train, x_test, y_test, subject_train and subject_test - contains raw data from downloaded files.
+xmergeset - contains train and test data merged.
+selectdata - contains train and test data with expression mean() and std() 
+avgdata - contains average data of features based on subject and activitygrp.
+
+The following are the variables in the final output:
 activity - the activity number
 activitygrp - the description of the activity 
 subject - the subject number
 
-The following are the features of the data in the final data set (contains mean or std):
+# The following are the features of the data in the final data set (contains mean or std):
 1 tBodyAcc-mean()-X
 2 tBodyAcc-mean()-Y
 3 tBodyAcc-mean()-Z
